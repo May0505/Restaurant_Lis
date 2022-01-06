@@ -29,5 +29,5 @@ app.get('/search', (req, res) => {
 
 // start and listen on the Express server
 app.listen(port, () => {
-  console.log(`listening on localhost:${port}`)
+  console.log(` listening on localhost:${port}`)
 })
